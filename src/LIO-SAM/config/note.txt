@@ -1,0 +1,3 @@
+保存修改Ctrl+C后的ros关闭时间
+sudo gedit /opt/ros/kinetic/lib/python2.7/dist-packages/roslaunch/nodeprocess.py
+

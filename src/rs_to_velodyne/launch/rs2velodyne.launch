@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="rs_to_velodyne" type="rs_to_velodyne" name="rs_to_velodyne" output="screen" >
+    	<param name="pcl_input" value="velodyne_points" />
+	<param name="pcl_output" value="points_raw" />
+    </node>  
+</launch>
